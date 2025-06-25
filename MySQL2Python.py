@@ -97,9 +97,9 @@ with open(PYTHON_FILE, 'w') as p:
 
 # Define MySQL connector
 mydb = mysql.connector.connect(
-  host={args.host},
-  user={args.username},
-  password={args.password}
+  host='{args.host}',
+  user='{args.username}',
+  password='{args.password}'
 )
 
 # Define MySQL cursor
